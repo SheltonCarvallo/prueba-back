@@ -34,6 +34,7 @@ namespace PruebaTecnicaBack.Controllers
         {
             try
             {
+                string variable = "this is a test using another branch on git";
                 return await _producto.GetProducto(id);
 
             }
